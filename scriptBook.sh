@@ -1,5 +1,15 @@
 #!/usr/bin/env bash
 
+#########################################
+#    Desarrollado por: d3vcr4ck         #
+#                                       #
+#                                       #
+#  Script que vuelve un archivo pdf     #
+#     a un mismo formato para ser       #
+#       impreso y encuadernado          #
+#                                       #
+#                                       #
+#########################################
 if [ "$#" -ne 1 ];then
   echo "Usage $0 <file.pdf>"
   exit 1

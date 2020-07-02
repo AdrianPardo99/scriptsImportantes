@@ -19,6 +19,6 @@ fi
 
 var=$1
 echo "File: $var"
-pdf2ps "${var}" - | psbook | ps2pdf - "convert_${var}"
-rm *.ps
+pdf2ps "${var}" - | psbook | pstops '2:1L@0.6(18cm,2cm)+0L@0.6(18cm,15cm)' | ps2pdf - "convert_book_${var}"
+
 echo "Succesfull new file convert_${var}"

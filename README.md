@@ -59,3 +59,22 @@ cheat5_desc = "Infinite_Slug_Cannon"
 cheat5_code = "33004756+0063"
 cheat5_enable = false
 ```
+
+Archivo rasp_3b_cam.py > Script para ejecutar con Python 3 en una Raspberry Pi 3B la cual ejecutara la camara que puede ser conseguida por 2 USD en Aliexpress el cual puede ser ejecutado desde Command Line Interface (CLI) sin necesidad de usar un monitor u otro aditamento (Instalar el modulo )
+```bash
+  # Configurar y habilitar el uso del puerto de la camara en
+  sudo raspi-config
+  # Interfaces > Camara > Habilitar (Requiere reinicio)
+  # Instalación del modulo de  python 3
+  sudo apt install python3-picamera -y
+```
+
+
+Archivo rasp_3b_cam.py > Script para ejecutar con Python 3 en una Raspberry Pi 4B la cual ejecutara la camara que puede ser conseguida por 2 USD en Aliexpress el cual puede ser ejecutado desde Command Line Interface (CLI) sin necesidad de usar un monitor u otro aditamento
+```bash
+  # Configurar y habilitar el uso del puerto de la camara en
+  sudo raspi-config
+  # Interfaces > Camara > Habilitar (Requiere reinicio)
+  # Instalación del modulo de  python 3
+  sudo apt install python3-picamera -y
+```

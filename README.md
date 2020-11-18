@@ -78,3 +78,8 @@ Archivo rasp_4b_cam.py :snake: > Script para ejecutar con Python 3 en una Raspbe
   # Instalación del modulo de  python 3
   sudo apt install python3-picamera -y
 ```
+Archivo send_message.py :snake: > Script que envía mensajes de forma automática en un área de texto la cual en este caso puede hacerse en el texto de whatsapp. :cowboy_hat_face: El script fue creado ya que funciona como un modulo en apoyo en juegos del hambre para hacer lista de participantes en una revisión. :left_speech_bubble:, con ello lo primero es instalar el modulo de python:
+```bash
+  # Instalacion del modulo pyautogui
+  pip3 install --user pyautogui
+```

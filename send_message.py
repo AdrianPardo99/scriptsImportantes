@@ -10,7 +10,7 @@ import pyautogui, time, datetime
 
 def send_message(text,in_h,in_t,in_s):
     """
-        @text_in -> Es un arreglo de listas la cual
+        @text_in -> Es un arreglo de cadenas de datos el cual
                     contiene los mensajes a ser enviados
         @in_h    -> Es la hora numericamente a la cual se
                     desea enviar el mensaje
@@ -36,5 +36,6 @@ def send_message(text,in_h,in_t,in_s):
         pyautogui.typewrite(word)
         pyautogui.press("enter")
     print("Se envio el mensaje correctamente")
+
 # Prueba de mensaje
 send_message(["Hola guapos el mensaje esta programado a las 13 45 00","Jala con todo y ya somos libres"],13,45,0)

@@ -84,7 +84,7 @@ Archivo send_message.py :snake: > Script que envía mensajes de forma automátic
   pip3 install --user pyautogui
 ```
 
-Archibo names_csi.rb > Script de automatización de separación de datos para el llenado de tablas cuyos datos son parte esencial para el tramite y la entrega de constancias
+Archibo names_csi.rb :diamonds: > Script de automatización de separación de datos para el llenado de tablas cuyos datos son parte esencial para el tramite y la entrega de constancias
 ```ruby
   ./names_csi "allFormat_important_with_'_'-other, information"
 

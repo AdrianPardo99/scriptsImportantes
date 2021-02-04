@@ -35,7 +35,8 @@ def send_message(text,in_h,in_t,in_s):
     for word in text:
         pyautogui.typewrite(word)
         pyautogui.press("enter")
+        time.sleep(0.1)
     print("Se envio el mensaje correctamente")
 
 # Prueba de mensaje
-send_message(["Hola guapos el mensaje esta programado a las 13 45 00","Jala con todo y ya somos libres"],13,45,0)
+send_message(["Adrian","Adrian"],11,55,0)
